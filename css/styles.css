@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333333;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    color: #555555;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.product-item {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.btn-add, .btn-submit {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-submit {
+    background-color: #007bff;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.message {
+    background-color: #d4edda;
+    padding: 30px 50px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    text-align: center;
+}
